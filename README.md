@@ -2,6 +2,8 @@
 
 A bare-metal firmware for the **STM32F427ZGTx** microcontroller that emulates a real analog potentiometer using a rotary encoder and a DAC output. Encoder pulses are counted in hardware via TIM2 in encoder mode, and the resulting 12-bit value is converted to an analog voltage on **PA4** (DAC1 Channel 1), making the output electrically indistinguishable from a wiper-voltage of a physical potentiometer.
 
+![PCB 3D Model](https://github.com/ikok07/stm32f427-digital-potentiometer/blob/main/pcb/3d_model.png?raw=true)
+
 ---
 
 ## Table of Contents
