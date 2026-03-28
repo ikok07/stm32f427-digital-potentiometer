@@ -7,6 +7,7 @@
 #include "encoder.h"
 
 #include "error.h"
+#include "event_manager.h"
 #include "system_config.h"
 
 static volatile uint32_t encoderValue = 0;
@@ -15,7 +16,7 @@ static volatile int32_t prevCounter = -1;
 /**
  * @brief Setup the encoder with interrupts
  */
-HAL_StatusTypeDef SetupEncoder() {
+HAL_StatusTypeDef ENC_Setup() {
     TIM_Encoder_InitTypeDef encoderConfig = {
         .EncoderMode = TIM_ENCODERMODE_TI1,
 
@@ -58,11 +59,7 @@ void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim) {
         HAL_RTCEx_BKUPWrite(systemConfig.pRTCHandle, RTC_BKP_DR0, encoderValue);
 
         // Update DAC
-        if (HAL_DAC_SetValue(systemConfig.pDACHandle, DAC_CHANNEL_1, DAC_ALIGN_12B_R, encoderValue & 0xFFF) != HAL_OK) {
-            TriggerError("Failed to update DAC value!");
-            HAL_Delay(2000);
-            NVIC_SystemReset();
-        };
+        EM_HandleNewEncValue(encoderValue);
 
         prevCounter = counter;
     }

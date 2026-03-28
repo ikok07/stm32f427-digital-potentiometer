@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs/stm32_digital_potentiometer_pcb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/stm32f4xx-hal-driver" vcs="Git" />
   </component>
 </project>

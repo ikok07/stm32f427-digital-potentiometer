@@ -7,6 +7,6 @@
 
 #include "stm32f4xx_hal.h"
 
-HAL_StatusTypeDef SetupDAC();
+HAL_StatusTypeDef DAC_Setup();
 
 #endif //DAC_H

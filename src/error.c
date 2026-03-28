@@ -7,9 +7,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-#include "stm32f4xx_hal.h"
-
-void SetupErrorHandling() {
+void ERR_Setup() {
     // Setup error LED GPIO
     GPIO_InitTypeDef GPIO_Config = {
         .Mode = GPIO_MODE_OUTPUT_PP,
@@ -24,9 +22,8 @@ void SetupErrorHandling() {
 /**
  * @brief Triggers an error which enables the error LED and sends message via USART
  * @param msgFormat Message to send via USART
- * @param ... Optional message format arguments
  */
-void TriggerError(char *msgFormat, ...) {
+void ERR_Trigger(char *msgFormat, ...) {
     HAL_GPIO_WritePin(ERROR_LED_PORT, ERROR_LED_PIN, GPIO_PIN_RESET);
 
     if (msgFormat == NULL) return;
@@ -43,7 +40,7 @@ void TriggerError(char *msgFormat, ...) {
 /**
  * @brief Clears the currently active error if one exists
  */
-void ClearError() {
+void ERR_Clear() {
     HAL_GPIO_WritePin(ERROR_LED_PORT, ERROR_LED_PIN, GPIO_PIN_RESET);
     printf("Active error cleared\n");
 }

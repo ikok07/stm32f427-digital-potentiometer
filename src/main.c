@@ -55,7 +55,7 @@ int main(void) {
     }
 
     if (HAL_USART_Init(systemConfig.pUSARTHandle) != HAL_OK) {
-        TriggerError(NULL);
+        ERR_Trigger(NULL);
         HAL_Delay(2000);
         NVIC_SystemReset();
     }
@@ -65,21 +65,21 @@ int main(void) {
 
     HAL_PWR_EnableBkUpAccess();
     if (HAL_PWREx_EnableBkUpReg() != HAL_OK) {
-        TriggerError("Backup registers could not be accessed");
+        ERR_Trigger("Backup registers could not be accessed");
         HAL_Delay(2000);
         NVIC_SystemReset();
     };
 
     // Init encoder
-    if (SetupEncoder() != HAL_OK) {
-        TriggerError("Encoder could not be initialized!");
+    if (ENC_Setup() != HAL_OK) {
+        ERR_Trigger("Encoder could not be initialized!");
         HAL_Delay(2000);
         NVIC_SystemReset();
     };
 
     // Init DAC
-    if (SetupDAC() != HAL_OK) {
-        TriggerError("Digital to analog converter could not be initialized!");
+    if (DAC_Setup() != HAL_OK) {
+        ERR_Trigger("Digital to analog converter could not be initialized!");
         HAL_Delay(2000);
         NVIC_SystemReset();
     };

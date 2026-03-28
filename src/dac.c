@@ -9,7 +9,7 @@
 /**
  * @brief Configures the DAC1 peripheral
  */
-HAL_StatusTypeDef SetupDAC() {
+HAL_StatusTypeDef DAC_Setup() {
     HAL_StatusTypeDef status = HAL_OK;
 
     // Initialize DAC

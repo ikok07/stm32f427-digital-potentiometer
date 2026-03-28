@@ -8,7 +8,7 @@
 #ifdef USE_FULL_ASSERT
 
 void assert_failed(uint8_t* file, uint32_t line) {
-    TriggerError("Assertion failed in file %s on line %ld!", file, line);
+    ERR_Trigger("Assertion failed in file %s on line %ld!", file, line);
     while (1);
 }
 

@@ -6,15 +6,15 @@
 #define ERROR_H
 
 #include <stdint.h>
+#include "stm32f4xx_hal.h"
 
+#define ERROR_LED_PORT              GPIOC
+#define ERROR_LED_PIN               0
 
-#define ERROR_LED_PORT              GPIOA
-#define ERROR_LED_PIN               2
+void ERR_Setup();
 
-void SetupErrorHandling();
-
-void TriggerError(char *msgFormat, ...);
-void ClearError();
+void ERR_Trigger(char *msgFormat, ...);
+void ERR_Clear();
 uint8_t CheckForError();
 
 #endif //ERROR_H

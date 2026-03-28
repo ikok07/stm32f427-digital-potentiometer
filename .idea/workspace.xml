@@ -3,6 +3,11 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
@@ -25,10 +30,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d362c2b-836b-4b2c-a12d-dcb648152caa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/MIC5205.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/TL072.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/event_manager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/fp-info-cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-07-18_231002.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-07-18_231546.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-07-18_232427.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-07-18_233112.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-07-18_233619.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-07-19_202724.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-07-19_203304.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-07-19_204008.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-07-19_205115.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-07-19_210521.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-07-25_185522.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-08-12_145707.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-08-12_151920.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-08-29_123916.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-08-29_124840.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-08-29_125342.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-08-29_130221.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-08-30_215531.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-10-03_103955.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2025-10-05_143222.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer-backups/stm32_digital_potentiometer-2026-01-13_190310.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer.kicad_pcb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer.kicad_prl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer.kicad_pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/stm32_digital_potentiometer.kicad_sch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pcb/~stm32_digital_potentiometer.kicad_pcb.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/event_manager.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/stm32f427-digital-potentiometer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/stm32f427-digital-potentiometer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/TL074M.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/dac.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/dac.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/encoder.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/encoder.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/error.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/error.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assert.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/assert.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dac.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/dac.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/encoder.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/encoder.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/error.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/error.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +81,16 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/kok/CLionProjects/stm32f427-digital-potentiometer" value="3BDwhUk2r7DgVn8oEbOwPG5DhKv" />
+      <entry key="_/Users/kok/CLionProjects/stm32f427-digital-potentiometer/.idea" value="2zzymp7yMWmZdSzIOdX3tWAI4R3" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="390" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:arm-cortex-m4 - ARM" />
   <component name="Git.Settings">
@@ -54,6 +108,18 @@
     &quot;accountId&quot;: &quot;767ccc1d-e77b-4fc8-9e41-18cb32e33bf9&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/include/dac.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/dac.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main.c" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="4AMascLS" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2025" />
@@ -73,31 +139,38 @@
     "CMake Application.stm32f427-digital-potentiometer.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "OpenOCD Download & Run.stm32f427-digital-potentiometer.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "RunOnceActivity.west.config.association.type.startup.service": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/kok/CLionProjects/stm32f427-digital-potentiometer/lib/HAL/Include",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/kok/CLionProjects/stm32f427-digital-potentiometer/pcb",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "CMakeSettings",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pcb" />
       <recent name="$PROJECT_DIR$/lib/HAL/Include" />
       <recent name="$PROJECT_DIR$/lib/HAL/Src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
       <recent name="$PROJECT_DIR$/docs" />
     </key>
   </component>
@@ -125,6 +198,14 @@
       <updated>1752748357812</updated>
       <workItem from="1752748359409" duration="2755000" />
       <workItem from="1752777032201" duration="21546000" />
+      <workItem from="1768241870068" duration="4528000" />
+      <workItem from="1768404639585" duration="1219000" />
+      <workItem from="1768506333212" duration="590000" />
+      <workItem from="1768576031496" duration="7000" />
+      <workItem from="1768577015763" duration="651000" />
+      <workItem from="1774037066555" duration="78000" />
+      <workItem from="1774700703397" duration="776000" />
+      <workItem from="1774710975646" duration="253000" />
     </task>
     <servers />
   </component>
@@ -135,5 +216,13 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

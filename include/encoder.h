@@ -13,6 +13,6 @@
 
 extern uint32_t EncoderValue;
 
-HAL_StatusTypeDef SetupEncoder();
+HAL_StatusTypeDef ENC_Setup();
 
 #endif //ENCODER_H
