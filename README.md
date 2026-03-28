@@ -6,24 +6,6 @@ A bare-metal firmware for the **STM32F427ZGTx** microcontroller that emulates a 
 
 ---
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Hardware](#hardware)
-  - [Pin Mapping](#pin-mapping)
-- [Software Architecture](#software-architecture)
-  - [Module Breakdown](#module-breakdown)
-- [Building](#building)
-  - [Prerequisites](#prerequisites)
-  - [Debug Build](#debug-build)
-  - [Release Build](#release-build)
-- [Flashing](#flashing)
-- [USART Debug Output](#usart-debug-output)
-- [Project Structure](#project-structure)
-
----
-
 ## Overview
 
 ```
