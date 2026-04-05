@@ -8,6 +8,8 @@
 #include <stdarg.h>
 
 void ERR_Setup() {
+    __HAL_RCC_GPIOC_CLK_ENABLE();
+
     // Setup error LED GPIO
     GPIO_InitTypeDef GPIO_Config = {
         .Mode = GPIO_MODE_OUTPUT_PP,
@@ -24,7 +26,7 @@ void ERR_Setup() {
  * @param msgFormat Message to send via USART
  */
 void ERR_Trigger(char *msgFormat, ...) {
-    HAL_GPIO_WritePin(ERROR_LED_PORT, ERROR_LED_PIN, GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(ERROR_LED_PORT, ERROR_LED_PIN, GPIO_PIN_SET);
 
     if (msgFormat == NULL) return;
 

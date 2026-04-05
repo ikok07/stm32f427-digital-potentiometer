@@ -9,7 +9,7 @@
 #include "stm32f4xx_hal.h"
 
 #define ERROR_LED_PORT              GPIOC
-#define ERROR_LED_PIN               0
+#define ERROR_LED_PIN               GPIO_PIN_0
 
 void ERR_Setup();
 

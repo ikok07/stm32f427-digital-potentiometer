@@ -54,6 +54,8 @@ int main(void) {
         while (1);
     }
 
+    ERR_Setup();
+
     if (HAL_USART_Init(systemConfig.pUSARTHandle) != HAL_OK) {
         ERR_Trigger(NULL);
         HAL_Delay(2000);
@@ -64,6 +66,7 @@ int main(void) {
     __HAL_RCC_PWR_CLK_ENABLE();
 
     HAL_PWR_EnableBkUpAccess();
+
     if (HAL_PWREx_EnableBkUpReg() != HAL_OK) {
         ERR_Trigger("Backup registers could not be accessed");
         HAL_Delay(2000);
